@@ -19,6 +19,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background: var(--softBlue);
 }
 
 .big-header {
@@ -56,6 +57,10 @@ body {
   border-radius: 50px;
   border: 0;
 }
+.btn-primary:hover {
+  background: var(--navy);
+  color: var(--white);
+}
 .btn-secondary {
   padding: 12px 20px 12px 20px;
   background: var(--grey);
@@ -64,6 +69,10 @@ body {
   font-weight: var(--fwmedium);
   border-radius: 50px;
   border: 0;
+}
+.btn-secondary:hover {
+  background: var(--navy);
+  color: var(--white) !important;
 }
 
 .navbar-nav .nav-item a:hover {
@@ -87,4 +96,15 @@ body {
   font-weight: var(--fwbold);
   color: var(--navy);
   font-size: 28px;
+}
+
+.navbar {
+  --bs-navbar-padding-y: 0;
+}
+
+.chasier-navbar {
+  padding: 30px;
+  background: var(--white);
+  border-bottom-left-radius: 26px;
+  border-bottom-right-radius: 26px;
 }
