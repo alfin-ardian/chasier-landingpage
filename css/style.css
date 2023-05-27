@@ -65,3 +65,26 @@ body {
   border-radius: 50px;
   border: 0;
 }
+
+.navbar-nav .nav-item a:hover {
+  color: var(--blue);
+  transition: all 0.3s ease;
+  font-weight: var(--fwsemibold);
+}
+
+.navbar-nav .nav-item a {
+  color: var(--navy);
+  transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-item {
+  padding-right: 25px;
+  padding-left: 25px;
+  font-weight: var(--fwregular);
+}
+
+.navbar-brand {
+  font-weight: var(--fwbold);
+  color: var(--navy);
+  font-size: 28px;
+}
