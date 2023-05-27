@@ -46,3 +46,22 @@ body {
   color: var(--darkGrey);
   margin: 0;
 }
+
+.btn-primary {
+  padding: 12px 20px 12px 20px;
+  background: var(--blue);
+  color: var(--white);
+  font-size: 16px;
+  font-weight: var(--fwsemibold);
+  border-radius: 50px;
+  border: 0;
+}
+.btn-secondary {
+  padding: 12px 20px 12px 20px;
+  background: var(--grey);
+  color: var(--navy);
+  font-size: 16px;
+  font-weight: var(--fwmedium);
+  border-radius: 50px;
+  border: 0;
+}
