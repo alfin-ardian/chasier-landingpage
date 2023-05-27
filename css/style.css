@@ -147,6 +147,14 @@ body {
   margin: 0;
 }
 
+.mt-70 {
+  margin-top: 70px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
 .mb-10 {
   margin-bottom: 10px;
 }
